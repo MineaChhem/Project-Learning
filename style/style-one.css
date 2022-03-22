@@ -1,0 +1,174 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.hold-page{
+    /* float: left; */
+    width: 100%;
+}
+/* head */
+.hold-menu{
+    width: 100%;
+    top: 0px;
+    background-color: white;
+    height: 125px;
+}
+.name{
+    width: 100%;
+    text-align: center;
+    padding:30px 0px 0px;
+    font-size: 38px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    letter-spacing: 5px;
+    cursor: pointer;
+}
+.name a{
+    text-decoration: none;
+    color: black;
+}
+/* .sub-menu{
+    width: 100%;
+} */
+.sub-menu a{
+    text-decoration: none;
+    color: black;
+}
+.menu{
+    /* background-color: blueviolet; */
+    font-size: 28px;
+    font-weight: bold;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    /* text-align: justify; */
+    letter-spacing: 2px;
+}
+.menu:hover{
+    /* width: fit-content; */
+    border-bottom: solid 2px black;
+    transition: 0.1s;
+}
+/* main */
+/* .main{
+    width: 100%;
+} */
+.top{
+    margin-top: 15px;
+}
+/* .image{
+    background-image: url(../image/I2-01.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 700px;
+} */
+.product{
+    width: 100%;
+}
+.product-name{
+    margin: 20px auto;
+    font-size: 38px;
+    text-align: center;
+    font-weight: lighter;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    letter-spacing: 8px;
+}
+.product-list{
+    width: 100%;
+    /* float: left; */
+}
+.product-picture{
+    /* padding: 5px 0px;
+    width: 19%;
+    display: block;
+    float: left;
+    text-align: center;
+    margin: 20px 0.5%;
+    height: 420px; */
+    /* padding-right: 50px; */
+    /* height: 480px; */
+    padding: 15px 0px;
+    text-align: center;
+}
+.product-picture:hover{
+    box-shadow: 0px 1px 12px rgba(0, 0, 0, 0.459);
+    border-radius: 15px;
+    transition: 0.30s;
+    transform: translateY(5px);
+}
+.product-list a{
+    text-decoration: none;
+    color: black;
+}
+.product-font{
+    font-size: 16px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-top: 20px;
+}
+.value{
+    margin: 5px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 16px;
+}
+.brand{
+    margin: 15px auto;
+    font-size: 38px;
+    text-align: center;
+    font-weight: lighter;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    letter-spacing: 8px;
+}
+.show{
+    width: fit-content;
+    /* float: left; */
+}
+.show-product{
+    display: block;
+    float: left;
+    text-align: center;
+    /* width: 30%; */
+    /* margin: 20px 6px; */
+}
+.show a{
+    text-decoration: none;
+    color: black;
+}
+.show .show-product div{
+    margin-top: 20px;
+    font-size: 34px;
+    text-align: center;
+    font-weight: bold;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
+    letter-spacing: 5px;
+}
+
+/* end */
+.end{
+    /* float: left; */
+    /* width: 100%; */
+    /* height: 120px; */
+    width: 100.75%;
+    background-color: black;
+    color: white;
+}
+.footer{
+    /* padding-left: 0%; */
+    text-align: justify;
+    /* width: 20%; */
+    /* margin: 0px 20px; */
+    /* float: left; */
+    padding-top: 10px;
+}
+.contact-font{
+    /* text-align: center; */
+    /* background-color: brown; */
+    margin: 10px 0px;
+    font-size: 16px;
+    letter-spacing: 3px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.contact-detail{
+    /* text-align: center; */
+    /* background-color: brown; */
+    margin: 10px 0px;
+    font-size: 16px;
+    letter-spacing: 2px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}

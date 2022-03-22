@@ -1,0 +1,201 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+.hold-page{
+    /* float: left; */
+    width: 100%;
+}
+/* head */
+.name{
+    /* float: left; */
+    /* width: 25%; */
+    /* text-align: center; */
+    padding: 20px 0px 0px;
+    font-size: 26px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    letter-spacing: 5px;
+    cursor: pointer;
+}
+.name a{
+    text-decoration: none;
+    color: black;
+}
+.sub-menu a{
+    text-decoration: none;
+    color: black;
+}
+.menu{
+    letter-spacing: 2px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    /* text-align: justify; */
+    /* letter-spacing: 2px; */
+}
+.menu:hover{
+    color: black;
+    text-decoration:underline;
+    /* color: white;
+    background-color: black;
+    border-radius: 5px;
+    border: solid 1px white;
+    transition: 0.1s; */
+}
+/* section */
+.section-body{
+    width: 100%;
+}
+.show{
+    /* float: left; */
+    width: 100%;
+}
+.left{
+    position: relative;
+    /* width: 60%;
+    height: 490px; */
+    /* background-image: url(../image/poster-corasun.jpg);
+    background-repeat: no-repeat;
+    background-size: 95%;
+    background-position: center; */
+}
+.background{
+    display: none;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.45);
+}
+.background-text{
+    text-decoration: none;
+    /* float: left; */
+    /* position: absolute; */
+    /* font-size: 18px; */
+    font-weight: lighter;
+    display: block;
+    margin: 35% auto;
+    /* margin-left: 30%; */
+    text-align: center;
+    background-color: white;
+    /* width: 10%; */
+    /* padding: 4px 10px 4px 10px; */
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    letter-spacing: 2px;
+    border-radius: 5px;
+    color: black;
+    box-shadow: 0px 0px 5px rgba(255, 255, 255, 0.10);
+}
+.align{
+    margin-top: 20%;!important
+}
+.background-one:hover .background{
+    display: block;
+    transition: 60s;
+}
+.background-text:hover{
+    text-decoration: underline 2px;
+}
+.sheet-one{
+    width: 100%;
+    /* height: px; */
+}
+.font{
+    /* font-weight: bold; */
+    font-size: 28px;
+    /* font-weight: lighter; */
+    /* font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; */
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    letter-spacing: 8px;
+    text-align: center;
+    padding-top: 20px;
+    text-decoration: underline;
+}
+.text-aboutus{
+    word-spacing: 2px;
+    padding: 25px 0px;
+    margin-top: 15px;
+    font-size: 22px;
+    color: rgba(241, 240, 240, 0.918);
+    font-family: 'Courier New', Courier, monospace;
+    /* font-weight: bold; */
+    line-height: 35px;
+    text-align: center;
+    letter-spacing: 2px;
+    /* height: 20px; */
+    /* height: 480px; */
+    background-color: rgba(8, 6, 6, 0.918);
+    /* background-image: url(/image/SancyI-01-01.jpg); */
+    /* background-repeat: no-repeat; */
+    /* background-position: top; */
+    /* background-size: 1500px; */
+    /* background-size: cover; */
+}
+.sheet-two{
+    /* width: 100%; */
+    /* height: 450px; */
+}
+.form{
+    /* width: 100%; */
+    /* height: 450px; */
+    /* float: left; */
+}
+.form-info-one{
+    /* width: 45%; */
+    /* margin: 50px 2%; */
+    /* border-radius: 5px; */
+    /* float: left; */
+}
+.form-info-two{
+    /* float: left; */
+    /* background-color: black; */
+    /* height: 200px; */
+    /* word-spacing: 2px; */
+    /* white-space: nowrap; */
+    /* width: 20%; */
+    font-weight: bold;
+    /* height: 25%; */
+    /* margin: 25px 15px; */
+    /* margin-top: 15px; */
+    padding: 50px 0px;
+    font-size: 24px;
+    text-align: start;
+    font-family: 'Courier New', Courier, monospace;
+}
+.first{
+    /* width: 0rem; */
+}
+.two{
+    /* white-space: nowrap; */
+}
+.end{
+    /* float: left; */
+    /* width: 100%; */
+    /* height: 120px; */
+    width: 100.75%;
+    background-color: black;
+    color: white;
+}
+.footer{
+    /* padding-left: 0%; */
+    text-align: justify;
+    /* width: 20%; */
+    /* margin: 0px 20px; */
+    /* float: left; */
+    padding-top: 10px;
+}
+.contact-font{
+    /* text-align: center; */
+    /* background-color: brown; */
+    margin: 10px 0px;
+    font-size: 16px;
+    letter-spacing: 3px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.contact-detail{
+    /* text-align: center; */
+    /* background-color: brown; */
+    margin: 10px 0px;
+    font-size: 16px;
+    letter-spacing: 2px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
